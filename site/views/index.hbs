@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap 5 Simple Admin Dashboard</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+
+    </head>
+    <style>
+    body{
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      flex-direction:column;
+      height:100vh;
+    }
+
+    </style>
+  <body>
+   {{>nav}}
+  <div class="container">
+    <div class="row">
+      <div class="col bg-light d-flex flex-column p-3">
+        <h1>we are mern developer</h1>
+        <a class="btn btn-primary" href="/logout">LogOut</a>
+      </div>
+    </div>
+  </div>
+  <script src="//cdn.jsdelivr.net/npm/eruda"></script>
+<script>eruda.init();</script>
+  </body>
+</html>
